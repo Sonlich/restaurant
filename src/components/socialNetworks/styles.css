@@ -1,0 +1,21 @@
+.social-line {
+  border-left: 1px solid #333333;
+  height: 380px;
+  margin-left: 10px;
+  z-index: 1000;
+}
+
+.social-networks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 14%;
+}
+
+.insta {
+  margin: 80% 0 80% 0;
+}
+
+.twitter {
+  margin-top: 80%;
+}

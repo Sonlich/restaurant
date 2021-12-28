@@ -1,0 +1,54 @@
+.logo {
+  width: 70px;
+  padding-bottom: 15px;
+  margin-right: 8px;
+}
+
+.rest-name {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+header {
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  flex-basis: 30%;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center {
+  text-align: center;
+}
+
+.page {
+  overflow: hidden;
+  background: linear-gradient(to right, #86290b, #86290b 50%, black 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 775ms ease;
+  text-decoration: none;
+}
+
+.page:hover {
+  background-position: 0 100%;
+}

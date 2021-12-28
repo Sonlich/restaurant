@@ -1,0 +1,49 @@
+.all-information {
+  display: flex;
+  flex-direction: row;
+  margin: 3% 8% 0% 8%;
+}
+
+.information-delivery,
+.information-discount {
+  width: 65%;
+  margin-right: 60%;
+  margin-bottom: 10%;
+}
+.information-stock {
+  width: 65%;
+  margin-right: 3%;
+}
+
+.delivery,
+.discount,
+.stock {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 1px;
+  color: #f2994a;
+}
+
+.delivery-description,
+.discount-description,
+.stock-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 1px;
+  color: #4f4f4f;
+}
+
+.soup-img {
+  width: 85%;
+}
+
+.footer-information {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

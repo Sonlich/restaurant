@@ -1,0 +1,25 @@
+.main-footer {
+  position: absolute;
+
+  margin-top: -4%;
+  right: 0;
+  padding: 10px;
+  width: 100%;
+  height: 10%;
+  background-color: #86290b;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 50;
+}
+
+.footer-rights {
+  text-align: right;
+  margin-right: 1%;
+}
+
+.footer-time {
+  text-align: center;
+  margin: 0 18% 0 18%;
+}

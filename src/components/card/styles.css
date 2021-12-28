@@ -1,0 +1,54 @@
+.dish-img {
+  border-radius: 25px;
+}
+
+.dish-card {
+  margin-top: 3%;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dish-name {
+  text-align: center;
+}
+
+.price-add {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.count-field {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -17%;
+}
+.count-menu {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.add-dish {
+  color: #eb5a1e;
+  border: 1px solid #eb5a1e;
+  background-color: white;
+  border-radius: 30px;
+  width: 50px;
+  font-size: 28px;
+  height: 50px;
+  display: inline-block;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.add-dish:hover {
+  background: #db4513;
+  box-shadow: 0 15px 20px rgba(229, 73, 46, 0.4);
+  color: white;
+  transform: translateY(-3px);
+}
